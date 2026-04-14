@@ -7,26 +7,41 @@ function Projects() {
 
       {/* 🧠 Brain Tumor */}
       <motion.div
-        className="project-card"
-        whileHover={{ scale: 1.05 }}
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-      >
-        <h3>🧠 Brain Tumor Classification</h3>
-        <p>
-          Developed a CNN-based deep learning model using MobileNetV2
-          achieving 92% accuracy for MRI image classification.
-        </p>
-        <span className="badge">Deep Learning</span>
-        <br />
-        <a
-          href="https://brain-tumor-app-th2lex7glc6kubgupwet3q.streamlit.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Live Demo
-        </a>
-      </motion.div>
+  className="project-card"
+  whileHover={{ scale: 1.05 }}
+>
+  <h3>🧠 Brain Tumor Classification</h3>
+
+  <p>
+    Developed a CNN-based deep learning model using MobileNetV2
+    achieving 92% accuracy for MRI image classification.
+    End-to-end deployed system with separate frontend (Streamlit) and backend (FastAPI on Render).
+
+  </p>
+
+  <p><b>Tech:</b> CNN, MobileNetV2, ONNX, FastAPI, Streamlit</p>
+
+  <span className="badge">Deep Learning</span>
+
+  <div className="project-links">
+    <a
+      href="https://brain-tumor-app-th2lex7glc6kubgupwet3q.streamlit.app/"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Live Demo
+    </a>
+
+    <a
+      href="https://brain-tumor-app-1-hmhx.onrender.com"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Backend API
+    </a>
+
+  </div>
+</motion.div>
 
       {/* 🤖 GenAI */}
       <motion.div
