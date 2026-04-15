@@ -1,6 +1,18 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 function Hero() {
+  const [downloading, setDownloading] = useState(false);
+
+  const handleDownload = () => {
+    setDownloading(true);
+
+    // simulate loading feedback
+    setTimeout(() => {
+      setDownloading(false);
+    }, 2000);
+  };
+
   return (
     <section className="hero-pro">
 
@@ -21,12 +33,19 @@ function Hero() {
           Deep Learning, and Generative AI to solve real-world problems.
         </p>
 
-        {/* ✅ ALL BUTTONS HERE */}
+        {/* ✅ BUTTONS */}
         <div className="hero-buttons">
-          <a href="#projects" className="btn-primary">View Projects</a>
+          <a href="#projects" className="btn-primary">
+            View Projects
+          </a>
 
-          <a href="/resume.pdf" className="btn-secondary" download>
-            Download Resume
+          <a
+            href="/resume.pdf"
+            className="btn-secondary"
+            download
+            onClick={handleDownload}
+          >
+            {downloading ? "⏳ Downloading..." : "Download Resume"}
           </a>
         </div>
       </motion.div>
