@@ -2,38 +2,26 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <section className="hero-new">
+    <section className="hero-pro">
 
-      {/* Background Glow */}
-      <div className="hero-bg"></div>
-
+      {/* LEFT CONTENT */}
       <motion.div
-        className="hero-content"
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
+        className="hero-left"
+        initial={{ opacity: 0, x: -80 }}
+        animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
       >
-
-        {/* Profile */}
-        <div className="hero-image">
-          <img src={require("../assets/profile.jpg")} alt="profile" />
-        </div>
-
-        {/* Name */}
         <h1>
           Hi, I'm <span>Kaviya</span>
         </h1>
 
-        {/* Role */}
         <h2>AI & ML Engineer</h2>
 
-        {/* Description */}
         <p>
           I build intelligent applications using Machine Learning, Deep Learning,
           and Generative AI to solve real-world problems.
         </p>
 
-        {/* Buttons */}
         <div className="hero-buttons">
           <a href="#projects" className="btn-primary">View Projects</a>
 
@@ -41,7 +29,18 @@ function Hero() {
             Download Resume
           </a>
         </div>
+      </motion.div>
 
+      {/* RIGHT IMAGE */}
+      <motion.div
+        className="hero-right"
+        initial={{ opacity: 0, x: 80 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+      >
+        <div className="hero-image-large">
+          <img src={require("../assets/profile.jpg")} alt="profile" />
+        </div>
       </motion.div>
 
     </section>
