@@ -21,9 +21,13 @@ function Hero() {
           Deep Learning, and Generative AI to solve real-world problems.
         </p>
 
+        {/* ✅ ALL BUTTONS HERE */}
         <div className="hero-buttons">
           <a href="#projects" className="btn-primary">View Projects</a>
-          <a href="#contact" className="btn-secondary">Contact Me</a>
+
+          <a href="/resume.pdf" className="btn-secondary" download>
+            Download Resume
+          </a>
         </div>
       </motion.div>
 
