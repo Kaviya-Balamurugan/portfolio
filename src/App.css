@@ -22,15 +22,6 @@ section {
   box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
-section::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 4px;
-  background: #6c63ff;
-  margin: 20px auto 0;
-  border-radius: 2px;
-}
 
 h2 {
   text-align: center;
