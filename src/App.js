@@ -5,12 +5,12 @@ import Education from "./components/Education";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Experience from "./components/Experience";     // ✅ add
-import Achievements from "./components/Achievements"; // ✅ add
-import WhatIDo from "./components/WhatIDo";           // ✅ add
+import Experience from "./components/Experience";
+import Achievements from "./components/Achievements";
+import WhatIDo from "./components/WhatIDo";
 import Reveal from "./components/Reveal";
+import Footer from "./components/Footer"; // ✅ use this
 import "./App.css";
-import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -30,11 +30,11 @@ function App() {
         </Reveal>
 
         <Reveal>
-          <WhatIDo />   {/* ✅ added */}
+          <WhatIDo />
         </Reveal>
 
         <Reveal>
-          <Experience /> {/* ✅ added */}
+          <Experience />
         </Reveal>
 
         <Reveal>
@@ -46,18 +46,18 @@ function App() {
         </Reveal>
 
         <Reveal>
-          <Achievements /> 
+          <Achievements />
         </Reveal>
 
-        <Reveal>
-          <Contact />
-        </Reveal>
-        
         <Reveal>
           <Contact />
         </Reveal>
 
       </main>
+
+      {/* ✅ Footer OUTSIDE main */}
+      <Footer />
+
     </>
   );
 }
