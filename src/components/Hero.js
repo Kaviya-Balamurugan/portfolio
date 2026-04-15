@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import "./Hero.css";
 
 function Hero() {
   return (
@@ -9,7 +10,7 @@ function Hero() {
         className="hero-text"
         initial={{ opacity: 0, x: -60 }}
         animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.7 }}
       >
         <h1>
           Hi, I'm <span>Kaviya</span>
@@ -34,13 +35,11 @@ function Hero() {
       {/* RIGHT IMAGE */}
       <motion.div
         className="hero-image"
-        initial={{ opacity: 0, x: 60, scale: 0.9 }}
-        animate={{ opacity: 1, x: 0, scale: 1 }}
-        transition={{ duration: 0.8 }}
+        initial={{ opacity: 0, x: 60 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.7 }}
       >
-        <div className="image-wrapper">
-          <img src={require("../assets/profile.jpg")} alt="profile" />
-        </div>
+        <img src={require("../assets/profile.jpg")} alt="profile" />
       </motion.div>
 
     </section>
