@@ -10,7 +10,7 @@ body {
   color: #1e293b;
 }
 
-/* Soft background design */
+/* Background design */
 body::before {
   content: "";
   position: fixed;
@@ -55,23 +55,21 @@ section {
   margin: auto;
 }
 
-/* ================= HEADINGS ================= */
+/* ================= HEADINGS (FIXED) ================= */
 h2 {
   font-size: 34px;
   margin-bottom: 50px;
   text-align: center;
-  position: relative;
 }
 
+/* PERFECT CENTERED UNDERLINE */
 h2::after {
   content: "";
+  display: block;
   width: 70px;
   height: 4px;
   background: #4f46e5;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -12px;
+  margin: 10px auto 0;
   border-radius: 10px;
 }
 
@@ -163,7 +161,7 @@ h2::after {
   filter: brightness(1.05) contrast(1.1);
 }
 
-/* Floating animation */
+/* Animation */
 @keyframes float {
   0% { transform: translateY(0); }
   50% { transform: translateY(-12px); }
@@ -174,7 +172,7 @@ h2::after {
   animation: float 4s ease-in-out infinite;
 }
 
-/* ================= CARDS (GLASS STYLE) ================= */
+/* ================= CARDS ================= */
 .card {
   background: rgba(255,255,255,0.75);
   backdrop-filter: blur(10px);
@@ -193,13 +191,6 @@ h2::after {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px;
-}
-
-.tag {
-  background: #e0e7ff;
-  color: #3730a3;
-  padding: 8px 15px;
-  border-radius: 20px;
 }
 
 /* ================= PROJECTS ================= */
