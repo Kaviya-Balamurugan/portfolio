@@ -25,10 +25,7 @@ function About() {
           I am continuously exploring advanced AI concepts such as Generative AI, 
           vector databases, and real-time AI systems to enhance my technical expertise.
         </p>
-        <p>
-  I aim to become an AI Engineer building scalable, real-time intelligent systems
-  that create meaningful impact in industries like healthcare and education.
-</p>
+       
       </div>
     </section>
   );
