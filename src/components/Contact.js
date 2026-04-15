@@ -9,10 +9,9 @@ function Contact() {
         {/* LEFT */}
         <div className="contact-left">
           <h3>Let’s Connect 👋</h3>
-          <p>
-            I’m open to opportunities, collaborations, and discussions 
-            related to AI, Machine Learning, and Full Stack Development.
-          </p>
+          <a href="mailto:kaviyabalamurugan03@gmail.com" className="btn-primary">
+  Send Email
+</a>
         </div>
 
         {/* RIGHT */}

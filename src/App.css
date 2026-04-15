@@ -295,22 +295,35 @@ h2 {
 .contact-card {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 10px;
   background: white;
-  padding: 15px 20px;
+  padding: 18px 22px;
   border-radius: 12px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.05);
   font-weight: 500;
+  transition: 0.3s;
 }
 
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(108,99,255,0.15);
+}
+
+.contact-card span {
+  flex: 1;
+}
+
+.contact-card svg,
+.contact-card i {
+  font-size: 18px;
+}
+#contact {
+  background: linear-gradient(135deg, #f8f9fc, #eef2ff);
+}
 .contact-card a {
   text-decoration: none;
   color: #6c63ff;
-}
-
-/* Hover effect */
-.contact-card:hover {
-  transform: translateY(-4px);
 }
 
 /* Responsive */
