@@ -10,9 +10,11 @@ function Projects() {
           <h3>🧠 Brain Tumor Classification</h3>
           <p>CNN model achieving <b>92% accuracy</b> using MobileNetV2.</p>
 
-          <div className="tags">
-            <span>Deep Learning</span>
-            <span>Healthcare AI</span>
+          {/* ✅ TECH STACK */}
+          <div className="tech-stack">
+            <span>TensorFlow</span>
+            <span>CNN</span>
+            <span>MobileNetV2</span>
           </div>
 
           <div className="project-links">
@@ -32,9 +34,11 @@ function Projects() {
           <h3>🤖 GenAI Tutor</h3>
           <p>RAG-based assistant using embeddings and vector DB.</p>
 
-          <div className="tags">
+          {/* ✅ TECH STACK */}
+          <div className="tech-stack">
             <span>RAG</span>
-            <span>LLM</span>
+            <span>Embeddings</span>
+            <span>Spring Boot</span>
           </div>
 
           <div className="project-links">
@@ -54,8 +58,10 @@ function Projects() {
           <h3>✈️ Trip Cost Predictor</h3>
           <p>ML regression model for predicting travel cost.</p>
 
-          <div className="tags">
-            <span>Machine Learning</span>
+          {/* ✅ TECH STACK */}
+          <div className="tech-stack">
+            <span>Random Forest</span>
+            <span>Flask</span>
             <span>Regression</span>
           </div>
 

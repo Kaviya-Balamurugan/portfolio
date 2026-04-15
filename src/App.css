@@ -225,6 +225,28 @@ h2 {
   box-shadow: 0 15px 40px rgba(0,0,0,0.08);
 }
 
+.tech-stack {
+  margin: 12px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-stack span {
+  background: #eef0ff;
+  color: #6c63ff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Optional hover effect */
+.tech-stack span:hover {
+  background: #6c63ff;
+  color: white;
+}
+
 /* ===== SKILLS ===== */
 .skills-container {
   display: grid;
