@@ -18,8 +18,8 @@ function Hero() {
         <h2>AI & ML Engineer</h2>
 
         <p>
-          I build intelligent applications using Machine Learning,
-          Deep Learning, and Generative AI to solve real-world problems.
+          Building intelligent systems using Machine Learning,
+  Deep Learning, and Generative AI to solve real-world problems.
         </p>
 
         <div className="hero-buttons">
