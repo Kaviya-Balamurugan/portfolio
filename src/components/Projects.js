@@ -36,14 +36,6 @@ function Projects() {
           >
             Live Demo
           </a>
-
-          <a
-            href="https://brain-tumor-app-1-hmhx.onrender.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Backend API
-          </a>
         </div>
       </div>
 
