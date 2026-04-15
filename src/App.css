@@ -63,58 +63,60 @@ h2 {
 }
 
 /* ================= HERO ================= */
-/* ================= HERO CLEAN (FINAL) ================= */
+/* ================= NEW HERO ================= */
 
-.hero-pro {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 70px;
+.hero-new {
+  text-align: center;
+  padding: 100px 20px;
 }
 
-/* LEFT */
-.hero-left {
-  max-width: 520px;
+/* Image */
+.hero-image {
+  width: 140px;
+  height: 140px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 4px;
+  background: linear-gradient(135deg, #4f46e5, #06b6d4);
 }
 
-/* Intro */
-.hero-intro {
-  font-size: 14px;
-  color: #64748b;
-  margin-bottom: 6px;
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /* Name */
-.hero-name {
-  font-size: 64px;
-  font-weight: 800;
-  margin: 0;
+.hero-new h1 {
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+.hero-new h1 span {
   background: linear-gradient(90deg, #4f46e5, #06b6d4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 /* Role */
-.hero-role {
-  font-size: 20px;
+.hero-new h2 {
+  font-size: 22px;
   margin-top: 10px;
-  font-weight: 600;
-  color: #1e293b;
+  color: #475569;
 }
 
 /* Description */
-.hero-desc {
-  margin-top: 18px;
-  font-size: 16px;
+.hero-new p {
+  margin: 20px auto;
+  max-width: 500px;
   color: #64748b;
-  line-height: 1.6;
+  font-size: 16px;
 }
 
 /* Buttons */
 .hero-buttons {
-  margin-top: 28px;
-  display: flex;
-  gap: 15px;
+  margin-top: 25px;
 }
 
 /* RIGHT IMAGE */

@@ -2,51 +2,41 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <section className="hero-pro">
+    <section className="hero-new">
 
-      {/* LEFT */}
       <motion.div
-        className="hero-left"
-        initial={{ opacity: 0, x: -80 }}
-        animate={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
 
-        <p className="hero-intro">Hello, I'm</p>
+        {/* Profile */}
+        <div className="hero-image">
+          <img src={require("../assets/profile.jpg")} alt="profile" />
+        </div>
 
-        <h1 className="hero-name">
-          Kaviya
+        {/* Name */}
+        <h1>
+          Hi, I'm <span>Kaviya</span>
         </h1>
 
-        <h2 className="hero-role">
-          AI & ML Engineer
-        </h2>
+        {/* Role */}
+        <h2>AI & ML Engineer</h2>
 
-        <p className="hero-desc">
-          I build intelligent applications using Machine Learning,
-          Deep Learning, and Generative AI to solve real-world problems.
+        {/* Description */}
+        <p>
+          I build intelligent applications using Machine Learning, Deep Learning,
+          and Generative AI to solve real-world problems.
         </p>
 
+        {/* Buttons */}
         <div className="hero-buttons">
           <a href="#projects" className="btn-primary">View Projects</a>
-
           <a href="/resume.pdf" className="btn-secondary" download>
             Download Resume
           </a>
         </div>
 
-      </motion.div>
-
-      {/* RIGHT */}
-      <motion.div
-        className="hero-right"
-        initial={{ opacity: 0, x: 80 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1 }}
-      >
-        <div className="circle">
-          <img src={require("../assets/profile.jpg")} alt="profile" />
-        </div>
       </motion.div>
 
     </section>
