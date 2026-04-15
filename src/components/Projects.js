@@ -15,8 +15,7 @@ function Projects() {
         <p><b>Tech:</b> CNN, MobileNetV2, ONNX, FastAPI, Streamlit</p>
 
         <div className="project-links">
-          <a href="#">Live Demo</a>
-          <a href="#">Backend API</a>
+          <a href="https://brain-tumor-app-th2lex7glc6kubgupwet3q.streamlit.app/">Live Demo</a>
         </div>
       </div>
 
@@ -31,7 +30,7 @@ function Projects() {
         <p><b>Tech:</b> RAG, Embeddings, Spring Boot, PostgreSQL</p>
 
         <div className="project-links">
-          <a href="#">GitHub</a>
+          <a href="https://github.com/Kaviya-Balamurugan/genai-tutor">GitHub</a>
         </div>
       </div>
 
@@ -46,7 +45,7 @@ function Projects() {
         <p><b>Tech:</b> Machine Learning, Random Forest, Flask</p>
 
         <div className="project-links">
-          <a href="#">Live Demo</a>
+          <a href="https://trip-cost-api.onrender.com/">Live Demo</a>
         </div>
       </div>
 
