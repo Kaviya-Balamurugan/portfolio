@@ -195,10 +195,59 @@ h2 {
 /* ================= PROJECTS ================= */
 .project-card {
   background: white;
-  padding: 30px;
+  padding: 28px 30px;
+  border-radius: 18px;
+  margin-bottom: 35px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.06);
+  position: relative;
+  transition: 0.3s;
+}
+
+/* 🔥 Accent line */
+.project-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 20px;
+  height: 60%;
+  width: 5px;
+  background: linear-gradient(#4f46e5, #06b6d4);
+  border-radius: 10px;
+}
+
+/* Hover */
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.project-card p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.project-links {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.tags span {
+  background: #eef2ff;
+  color: #4338ca;
+  padding: 6px 14px;
   border-radius: 20px;
-  margin-bottom: 30px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  font-size: 12px;
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+section {
+  padding: 70px 10%;
 }
 
 .project-links a {
