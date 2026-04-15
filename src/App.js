@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Achievements from "./components/Achievements";
 import WhatIDo from "./components/WhatIDo";
+import Education from "./components/Education";
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Education />
       <WhatIDo />
       <Experience />
       <Skills />

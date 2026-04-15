@@ -119,6 +119,9 @@ h2 {
   margin-top: 25px;
 }
 
+#education .card {
+  margin-bottom: 25px;
+}
 /* RIGHT IMAGE */
 .circle {
   width: 240px;
