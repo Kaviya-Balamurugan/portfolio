@@ -39,9 +39,21 @@ section {
 .card {
   background: white;
   padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.06);
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
   line-height: 1.7;
+
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+section:nth-child(even) {
+  background: #f1f5f9;
+  border-radius: 20px;
 }
 
 /* HERO SECTION */
@@ -100,6 +112,42 @@ section {
   margin-left: 10px;
 }
 
+.project-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.btn-primary {
+  padding: 12px 24px;
+  background: linear-gradient(90deg, #4f46e5, #06b6d4);
+  color: white;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+.btn-secondary:hover {
+  background: #4f46e5;
+  color: white;
+}
+
+section {
+  padding: 100px 10%;
+}
 /* RIGHT IMAGE (FIXED 🔥) */
 .circle {
   width: 260px;
@@ -284,4 +332,22 @@ section {
 
 .btn-secondary:active {
   transform: scale(0.95);
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  position: relative;
+  display: inline-block;
+}
+
+h2::after {
+  content: "";
+  width: 60%;
+  height: 3px;
+  background: #4f46e5;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  border-radius: 10px;
 }
