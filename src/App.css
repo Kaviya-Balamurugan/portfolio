@@ -345,6 +345,16 @@ h2 {
   font-size: 12px;
 }
 
+.card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.card ul li {
+  margin-bottom: 6px;
+  color: #475569;
+}
+
 .project-card ul {
   margin-top: 10px;
   padding-left: 20px;
