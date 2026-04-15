@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import profile from "../assets/profile.jpg"; // ✅ FIXED
-
+import { TypeAnimation } from "react-type-animation";
 function Hero() {
   return (
     <>
@@ -18,9 +18,22 @@ function Hero() {
           </h1>
 
           <h2>
-            Building Intelligent Systems <br />
-            with AI & Machine Learning
-          </h2>
+  <TypeAnimation
+    sequence={[
+      "AI Engineer",
+      1500,
+      "Building Intelligent Systems",
+      1500,
+      "Machine Learning & Deep Learning",
+      1500,
+      "Generative AI Developer",
+      1500
+    ]}
+    wrapper="span"
+    speed={50}
+    repeat={Infinity}
+  />
+</h2>
 
           <p>
             I design and develop intelligent applications using Machine Learning,

@@ -257,3 +257,18 @@ h2 {
     flex-direction: column;
   }
 }
+.hero-text h2 {
+  font-size: 1.8rem;
+  margin: 10px 0;
+  min-height: 40px; /* prevents jumping */
+}
+.hero-text span::after {
+  content: "|";
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
