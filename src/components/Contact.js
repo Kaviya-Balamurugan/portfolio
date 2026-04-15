@@ -23,14 +23,22 @@ function Contact() {
 
           <div className="contact-item">
             <span>💻</span>
-            <a href="https://github.com/Kaviya-Balamurugan" target="_blank">
+            <a 
+              href="https://github.com/Kaviya-Balamurugan" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               github.com/Kaviya-Balamurugan
             </a>
           </div>
 
           <div className="contact-item">
             <span>🔗</span>
-            <a href="https://linkedin.com/in/kaviyabalamurugan" target="_blank">
+            <a 
+              href="https://linkedin.com/in/kaviyabalamurugan" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               linkedin.com/in/kaviyabalamurugan
             </a>
           </div>
