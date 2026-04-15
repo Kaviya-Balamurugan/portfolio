@@ -194,13 +194,31 @@ h2 {
 
 /* ================= PROJECTS ================= */
 .project-card {
-  background: white;
-  padding: 28px 30px;
+  background: linear-gradient(145deg, #ffffff, #f1f5f9);
+  padding: 28px;
   border-radius: 18px;
   margin-bottom: 35px;
-  box-shadow: 0 15px 40px rgba(0,0,0,0.06);
-  position: relative;
-  transition: 0.3s;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+}
+.project-links a {
+  padding: 8px 16px;
+  background: #4f46e5;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.project-card + .project-card {
+  margin-top: 20px;
+}
+.project-card p {
+  color: #475569;
+  line-height: 1.6;
 }
 
 /* 🔥 Accent line */
@@ -213,11 +231,6 @@ h2 {
   width: 5px;
   background: linear-gradient(#4f46e5, #06b6d4);
   border-radius: 10px;
-}
-
-/* Hover */
-.project-card:hover {
-  transform: translateY(-8px);
 }
 
 .project-card h3 {
@@ -248,6 +261,23 @@ h2 {
 
 section {
   padding: 70px 10%;
+}
+
+/* ================= PROJECT HEADER ================= */
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.project-type {
+  background: #eef2ff;
+  color: #4338ca;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .project-links a {
