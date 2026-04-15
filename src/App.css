@@ -361,7 +361,10 @@ h2 {
 }
 
 .footer-links {
-  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .footer-links a {
@@ -374,4 +377,6 @@ h2 {
 
 .footer-links a:hover {
   color: #4b45c9;
+  transform: translateY(-2px);
+
 }
