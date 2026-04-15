@@ -37,7 +37,7 @@ function Hero() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <img src={require("../assets/profile.jpg")} alt="profile" />
+        <img src={require("../assets/profile.jpg")} alt="Kaviya" className="profile-img"/>
       </motion.div>
 
     </section>
