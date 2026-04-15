@@ -14,7 +14,7 @@ function Projects() {
         <span>Healthcare AI</span>
       </div>
       <div className="project-links">
-        <a href="https://brain-tumor-app-th2lex7glc6kubgupwet3q.streamlit.app/" target="_blank">Live Demo</a>
+        <a href="https://brain-tumor-app-th2lex7glc6kubgupwet3q.streamlit.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
       </div>
     </div>
 
@@ -27,7 +27,7 @@ function Projects() {
         <span>LLM</span>
       </div>
       <div className="project-links">
-        <a href="https://github.com/Kaviya-Balamurugan/genai-tutor" target="_blank">GitHub</a>
+        <a href="https://github.com/Kaviya-Balamurugan/genai-tutor" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </div>
 
@@ -40,7 +40,7 @@ function Projects() {
         <span>Regression</span>
       </div>
       <div className="project-links">
-        <a href="https://trip-cost-api.onrender.com/" target="_blank">Live Demo</a>
+        <a href="https://trip-cost-api.onrender.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
       </div>
     </div>
 
