@@ -1,3 +1,5 @@
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+
 function Contact() {
   return (
     <section id="contact" className="contact-section">
@@ -26,12 +28,12 @@ function Contact() {
         <div className="contact-right">
 
           <div className="contact-card">
-            📧
+            <FaEnvelope />
             <span>kaviyabalamurugan03@gmail.com</span>
           </div>
 
           <div className="contact-card">
-            💻
+            <FaGithub />
             <a 
               href="https://github.com/Kaviya-Balamurugan"
               target="_blank"
@@ -42,7 +44,7 @@ function Contact() {
           </div>
 
           <div className="contact-card">
-            🔗
+            <FaLinkedin />
             <a 
               href="https://linkedin.com/in/kaviyabalamurugan"
               target="_blank"

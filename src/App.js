@@ -10,6 +10,7 @@ import Achievements from "./components/Achievements"; // ✅ add
 import WhatIDo from "./components/WhatIDo";           // ✅ add
 import Reveal from "./components/Reveal";
 import "./App.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -45,9 +46,13 @@ function App() {
         </Reveal>
 
         <Reveal>
-          <Achievements /> {/* ✅ added */}
+          <Achievements /> 
         </Reveal>
 
+        <Reveal>
+          <Contact />
+        </Reveal>
+        
         <Reveal>
           <Contact />
         </Reveal>

@@ -296,7 +296,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
+  gap: 12px;
   background: white;
   padding: 18px 22px;
   border-radius: 12px;
@@ -312,9 +312,13 @@ h2 {
 
 .contact-card span {
   flex: 1;
+  text-align: left;
 }
 
-.contact-card svg,
+.contact-card svg {
+  font-size: 20px;
+  color: #6c63ff;
+}
 .contact-card i {
   font-size: 18px;
 }
@@ -324,6 +328,7 @@ h2 {
 .contact-card a {
   text-decoration: none;
   color: #6c63ff;
+  text-align: left;
 }
 .contact-left .btn-primary {
   display: inline-block;
@@ -340,4 +345,28 @@ h2 {
   .contact-right {
     width: 100%;
   }
+}
+
+.footer {
+  text-align: center;
+  padding: 25px;
+  background: #ffffff;
+  border-top: 1px solid #eee;
+  margin-top: 40px;
+}
+
+.footer p {
+  margin: 0;
+  color: #555;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #6c63ff;
+  font-weight: 500;
 }
