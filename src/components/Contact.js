@@ -18,7 +18,7 @@ function Contact() {
 
           <div className="contact-item">
             <span>📧</span>
-            <p>kaviya.balamurugan03@gmail.com</p>
+            <p>kaviyabalamurugan03@gmail.com</p>
           </div>
 
           <div className="contact-item">
