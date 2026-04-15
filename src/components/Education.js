@@ -19,9 +19,6 @@ function Education() {
 
             <p><b>CGPA:</b> 8.27</p>
 
-            <p className="edu-course">
-              Machine Learning • Deep Learning • Data Structures • DBMS
-            </p>
           </div>
         </div>
 

@@ -12,7 +12,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <Hero />
       <About />
@@ -23,7 +23,7 @@ function App() {
       <Projects />
       <Achievements />
       <Contact />
-    </div>
+    </>
   );
 }
 
