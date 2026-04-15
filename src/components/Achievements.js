@@ -5,7 +5,7 @@ function Achievements() {
 
       <div className="card">
         <p>🏆 Solved 200+ problems on coding platforms</p>
-        <p>🎓 Completed NPTEL certifications in Cyber Security & IoT</p>
+        <p>🎓 Completed NPTEL certifications in Cyber Security & Industrial 4.0 and  IoT</p>
         <p>📊 Built ML models achieving 92% accuracy</p>
         <p>🏐 Won Volleyball competition (Hostel Day)</p>
       </div>

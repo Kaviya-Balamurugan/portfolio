@@ -63,6 +63,57 @@ h2 {
 }
 
 /* ================= HERO ================= */
+
+/* HERO BADGE */
+.hero-badge {
+  display: inline-block;
+  background: #eef2ff;
+  color: #4338ca;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+/* TITLE */
+.hero-left h1 {
+  font-size: 52px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.hero-left h1 span {
+  background: linear-gradient(90deg, #4f46e5, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* TEXT */
+.hero-left p {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #64748b;
+  max-width: 500px;
+}
+
+/* STATS */
+.hero-stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.hero-stats h3 {
+  font-size: 22px;
+  color: #4f46e5;
+}
+
+.hero-stats p {
+  font-size: 13px;
+  color: #64748b;
+} 
+
 .hero-pro {
   display: flex;
   align-items: center;
