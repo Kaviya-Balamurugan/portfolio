@@ -54,8 +54,9 @@ function Projects() {
         <p><b>Key Features:</b></p>
         <ul>
           <li>✔ Semantic search using embeddings</li>
-          <li>✔ Chunking strategy (~500 tokens)</li>
-          <li>✔ Real-time streaming using SSE</li>
+          <li>✔ Chunking strategy </li>
+          <li>✔ Ensured accurate and meaningful responses</li>
+          
         </ul>
 
         <div className="tags">
