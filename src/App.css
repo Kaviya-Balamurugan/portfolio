@@ -63,88 +63,80 @@ h2 {
 }
 
 /* ================= HERO ================= */
-
-/* HERO BADGE */
-.hero-badge {
-  display: inline-block;
-  background: #eef2ff;
-  color: #4338ca;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 13px;
-  margin-bottom: 15px;
-  font-weight: 500;
-}
-
-/* TITLE */
-.hero-left h1 {
-  font-size: 52px;
-  line-height: 1.2;
-  margin-bottom: 10px;
-}
-
-.hero-left h1 span {
-  background: linear-gradient(90deg, #4f46e5, #06b6d4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* TEXT */
-.hero-left p {
-  margin-top: 15px;
-  font-size: 16px;
-  color: #64748b;
-  max-width: 500px;
-}
-
-/* STATS */
-.hero-stats {
-  display: flex;
-  gap: 40px;
-  margin-top: 30px;
-}
-
-.hero-stats h3 {
-  font-size: 22px;
-  color: #4f46e5;
-}
-
-.hero-stats p {
-  font-size: 13px;
-  color: #64748b;
-} 
+/* ================= HERO CLEAN (FINAL) ================= */
 
 .hero-pro {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 60px;
+  gap: 70px;
 }
 
+/* LEFT */
 .hero-left {
-  max-width: 600px;
+  max-width: 520px;
 }
 
-.hero-left h1 {
-  font-size: 58px;
-  font-weight: 700;
+/* Intro */
+.hero-intro {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 6px;
 }
 
-.hero-left h1 span {
+/* Name */
+.hero-name {
+  font-size: 64px;
+  font-weight: 800;
+  margin: 0;
   background: linear-gradient(90deg, #4f46e5, #06b6d4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.hero-left p {
-  margin-top: 20px;
-  font-size: 18px;
-  color: #64748b;
+/* Role */
+.hero-role {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #1e293b;
 }
 
-/* ================= BUTTONS ================= */
+/* Description */
+.hero-desc {
+  margin-top: 18px;
+  font-size: 16px;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+/* Buttons */
 .hero-buttons {
-  margin-top: 30px;
+  margin-top: 28px;
+  display: flex;
+  gap: 15px;
+}
+
+/* RIGHT IMAGE */
+.circle {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  padding: 6px;
+  background: linear-gradient(135deg, #4f46e5, #06b6d4);
+  box-shadow: 0 12px 30px rgba(79,70,229,0.2);
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Subtle animation */
+.hero-right {
+  animation: float 5s ease-in-out infinite;
 }
 
 .btn-primary {

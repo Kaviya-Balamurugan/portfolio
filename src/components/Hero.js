@@ -12,42 +12,27 @@ function Hero() {
         transition={{ duration: 1 }}
       >
 
-        {/* 🔥 Badge */}
-        <span className="hero-badge">AI / ML Engineer</span>
+        <p className="hero-intro">Hello, I'm</p>
 
-        <h1>
-          Building <span>Intelligent Systems</span><br />
-          with AI & Machine Learning
+        <h1 className="hero-name">
+          Kaviya
         </h1>
 
-        <p>
-          I develop scalable AI solutions, combining Machine Learning,
+        <h2 className="hero-role">
+          AI & ML Engineer
+        </h2>
+
+        <p className="hero-desc">
+          I build intelligent applications using Machine Learning,
           Deep Learning, and Generative AI to solve real-world problems.
         </p>
 
-        {/* Buttons */}
         <div className="hero-buttons">
           <a href="#projects" className="btn-primary">View Projects</a>
 
           <a href="/resume.pdf" className="btn-secondary" download>
             Download Resume
           </a>
-        </div>
-
-        {/* 🔥 Stats */}
-        <div className="hero-stats">
-          <div>
-            <h3>3+</h3>
-            <p>Projects</p>
-          </div>
-          <div>
-            <h3>2</h3>
-            <p>Internships</p>
-          </div>
-          <div>
-            <h3>92%</h3>
-            <p>Model Accuracy</p>
-          </div>
         </div>
 
       </motion.div>
