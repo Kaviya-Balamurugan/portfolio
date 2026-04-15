@@ -6,7 +6,6 @@ body {
   color: #333;
   scroll-behavior: smooth;
 }
-
 * {
   transition: all 0.3s ease;
 }
@@ -66,7 +65,7 @@ h2 {
   justify-content: space-between;
   min-height: 100vh;
   padding-top: 120px;
-  background: linear-gradient(135deg, #eef2ff, #ffffff);
+  gap: 40px;
 }
 
 .hero-text h1 {
@@ -115,19 +114,22 @@ h2 {
 
 /* ===== HERO IMAGE ===== */
 .profile-img {
-  width: 320px;
-  border-radius: 20px;
-  object-fit: cover;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 280px;
+  max-width: 100%;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
 }
 
 /* ===== STATS ===== */
 .stats {
   display: flex;
   justify-content: center;
-  gap: 40px;
-  margin-top: -60px;
-  margin-bottom: 40px;
+  gap: 30px;
+  margin: 40px 0;
+  flex-wrap: wrap;
 }
 
 .stat {
@@ -303,4 +305,9 @@ h2 {
   .contact-container {
     flex-direction: column;
   }
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
 }
