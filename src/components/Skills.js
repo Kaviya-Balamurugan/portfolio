@@ -8,7 +8,7 @@ function Skills() {
         {/* Languages */}
         <div className="skill-card">
           <h3>💻 Languages</h3>
-          <p>Java, Python</p>
+          <p>Java, Python, HTML, CSS</p>
         </div>
 
         {/* AI / ML */}

@@ -4,7 +4,11 @@ function Hero() {
   return (
     <section className="hero-new">
 
+      {/* Background Glow */}
+      <div className="hero-bg"></div>
+
       <motion.div
+        className="hero-content"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
@@ -32,6 +36,7 @@ function Hero() {
         {/* Buttons */}
         <div className="hero-buttons">
           <a href="#projects" className="btn-primary">View Projects</a>
+
           <a href="/resume.pdf" className="btn-secondary" download>
             Download Resume
           </a>
