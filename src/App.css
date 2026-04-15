@@ -132,15 +132,6 @@ main {
   z-index: 2;
 }
 
-.stat {
-  background: white;
-  padding: 25px;
-  border-radius: 15px;
-  width: 160px;
-  text-align: center;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
-}
-
 .stat:hover {
   transform: translateY(-5px);
 }
