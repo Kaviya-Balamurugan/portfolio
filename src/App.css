@@ -333,3 +333,23 @@ h2 {
 .project-card {
   margin-bottom: 30px;
 }
+
+.tags span {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #3730a3;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-right: 8px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.project-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.project-card ul li {
+  margin-bottom: 6px;
+}
