@@ -5,36 +5,31 @@ function Education() {
 
       <div className="edu-container">
 
-        {/* College */}
-        <div className="edu-card">
-          <div className="edu-left">
-            <span className="edu-year">2023 – 2027</span>
-          </div>
+        <div className="edu-card-new">
+          <div className="edu-line"></div>
 
-          <div className="edu-right">
+          <div className="edu-content">
             <h3>B.E Computer Science (AI & ML)</h3>
-            <p className="edu-place">
-              KPR Institute of Engineering and Technology, Coimbatore
-            </p>
+            <p>KPR Institute of Engineering and Technology, Coimbatore</p>
 
-            <p><b>CGPA:</b> 8.27</p>
-
+            <div className="edu-meta">
+              <span>2023 – 2027</span>
+              <span>CGPA: 8.27</span>
+            </div>
           </div>
         </div>
 
-        {/* School */}
-        <div className="edu-card">
-          <div className="edu-left">
-            <span className="edu-year">2023</span>
-          </div>
+        <div className="edu-card-new">
+          <div className="edu-line"></div>
 
-          <div className="edu-right">
+          <div className="edu-content">
             <h3>Higher Secondary Education (HSE)</h3>
-            <p className="edu-place">
-              Thaai Matric Higher Secondary School
-            </p>
+            <p>Thaai Matric Higher Secondary School</p>
 
-            <p><b>Score:</b> 93.5%</p>
+            <div className="edu-meta">
+              <span>2023</span>
+              <span>Score: 93.5%</span>
+            </div>
           </div>
         </div>
 
