@@ -1,25 +1,41 @@
 function Contact() {
   return (
-    <section id="contact">
-      <h2>Contact</h2>
+    <section id="contact" className="contact-section">
 
-      <div className="contact-card">
+      <h2>Get In Touch</h2>
 
-        <p><b>Email:</b> kaviya.balamurugan03@gmail.com</p>
+      <div className="contact-container">
 
-        <p>
-          <b>GitHub:</b>{" "}
-          <a href="https://github.com/Kaviya-Balamurugan" target="_blank">
-            github.com/Kaviya-Balamurugan
-          </a>
-        </p>
+        <div className="contact-left">
+          <h3>Let’s Connect 👋</h3>
+          <p>
+            I’m open to opportunities, collaborations, and discussions 
+            related to AI, Machine Learning, and Full Stack Development.
+          </p>
+        </div>
 
-        <p>
-          <b>LinkedIn:</b>{" "}
-          <a href="https://linkedin.com/in/kaviyabalamurugan" target="_blank">
-            linkedin.com/in/kaviyabalamurugan
-          </a>
-        </p>
+        <div className="contact-right">
+
+          <div className="contact-item">
+            <span>📧</span>
+            <p>kaviya.balamurugan03@gmail.com</p>
+          </div>
+
+          <div className="contact-item">
+            <span>💻</span>
+            <a href="https://github.com/Kaviya-Balamurugan" target="_blank">
+              github.com/Kaviya-Balamurugan
+            </a>
+          </div>
+
+          <div className="contact-item">
+            <span>🔗</span>
+            <a href="https://linkedin.com/in/kaviyabalamurugan" target="_blank">
+              linkedin.com/in/kaviyabalamurugan
+            </a>
+          </div>
+
+        </div>
 
       </div>
     </section>

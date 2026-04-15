@@ -267,3 +267,69 @@ h2 {
     padding: 60px 20px;
   }
 }
+/* CONTACT SECTION UPGRADE */
+.contact-section {
+  padding: 100px 10%;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+/* LEFT SIDE */
+.contact-left {
+  flex: 1;
+}
+
+.contact-left h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-left p {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+/* RIGHT SIDE */
+.contact-right {
+  flex: 1;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+/* ITEMS */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.contact-item span {
+  font-size: 20px;
+}
+
+.contact-item a {
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+}
+.project-card {
+  margin-bottom: 30px;
+}
