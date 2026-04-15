@@ -13,6 +13,9 @@ body {
 section {
   position: relative;
 }
+#about, #skills, #projects, #contact, #achievements {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
 
 section::after {
   content: "";
@@ -297,10 +300,10 @@ main {
   }
 
   .stats {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
+  margin-top: -40px;
+  position: relative;
+  z-index: 2;
+}
 
   .contact-container {
     flex-direction: column;
