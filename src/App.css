@@ -58,20 +58,21 @@ section {
 /* ================= HEADINGS (FIXED) ================= */
 h2 {
   font-size: 34px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
-/* PERFECT CENTERED UNDERLINE */
+/* Remove ALL old underline logic and force new one */
 h2::after {
   content: "";
   display: block;
-  width: 70px;
+  width: 60px;
   height: 4px;
   background: #4f46e5;
-  margin: 10px auto 0;
+  margin: 12px auto 0;
   border-radius: 10px;
 }
+
 
 /* ================= HERO ================= */
 .hero-pro {
