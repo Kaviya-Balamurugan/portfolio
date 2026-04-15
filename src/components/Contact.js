@@ -4,8 +4,9 @@ function Contact() {
 
       <h2>Get In Touch</h2>
 
-      <div className="contact-container">
+      <div className="contact-box">
 
+        {/* LEFT */}
         <div className="contact-left">
           <h3>Let’s Connect 👋</h3>
           <p>
@@ -14,38 +15,43 @@ function Contact() {
           </p>
         </div>
 
+        {/* RIGHT */}
         <div className="contact-right">
 
-          <div className="contact-item">
-            <span>📧</span>
-            <p>kaviyabalamurugan03@gmail.com</p>
+          <div className="contact-card">
+            📧
+            <span>kaviyabalamurugan03@gmail.com</span>
+            <a href="mailto:kaviyabalamurugan03@gmail.com" className="btn-primary">
+  Send Email
+</a>
           </div>
 
-          <div className="contact-item">
-            <span>💻</span>
+          <div className="contact-card">
+            💻
             <a 
-              href="https://github.com/Kaviya-Balamurugan" 
-              target="_blank" 
+              href="https://github.com/Kaviya-Balamurugan"
+              target="_blank"
               rel="noopener noreferrer"
             >
-              github.com/Kaviya-Balamurugan
+              GitHub Profile
             </a>
           </div>
 
-          <div className="contact-item">
-            <span>🔗</span>
+          <div className="contact-card">
+            🔗
             <a 
-              href="https://linkedin.com/in/kaviyabalamurugan" 
-              target="_blank" 
+              href="https://linkedin.com/in/kaviyabalamurugan"
+              target="_blank"
               rel="noopener noreferrer"
             >
-              linkedin.com/in/kaviyabalamurugan
+              LinkedIn Profile
             </a>
           </div>
 
         </div>
 
       </div>
+
     </section>
   );
 }

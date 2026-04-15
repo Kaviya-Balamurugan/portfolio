@@ -272,3 +272,55 @@ h2 {
     opacity: 0;
   }
 }
+
+/* ===== CONTACT IMPROVED ===== */
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.contact-left {
+  max-width: 500px;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  font-weight: 500;
+}
+
+.contact-card a {
+  text-decoration: none;
+  color: #6c63ff;
+}
+
+/* Hover effect */
+.contact-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+}
