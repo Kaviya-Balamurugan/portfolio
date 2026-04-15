@@ -9,9 +9,17 @@ function Contact() {
         {/* LEFT */}
         <div className="contact-left">
           <h3>Let’s Connect 👋</h3>
-          <a href="mailto:kaviyabalamurugan03@gmail.com" className="btn-primary">
-  Send Email
-</a>
+          <p>
+            I’m open to opportunities, collaborations, and discussions 
+            related to AI, Machine Learning, and Full Stack Development.
+          </p>
+
+          <a 
+            href="mailto:kaviyabalamurugan03@gmail.com" 
+            className="btn-primary"
+          >
+            Send Email
+          </a>
         </div>
 
         {/* RIGHT */}
@@ -20,9 +28,6 @@ function Contact() {
           <div className="contact-card">
             📧
             <span>kaviyabalamurugan03@gmail.com</span>
-            <a href="mailto:kaviyabalamurugan03@gmail.com" className="btn-primary">
-  Send Email
-</a>
           </div>
 
           <div className="contact-card">

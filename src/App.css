@@ -325,6 +325,10 @@ h2 {
   text-decoration: none;
   color: #6c63ff;
 }
+.contact-left .btn-primary {
+  display: inline-block;
+  margin-top: 20px;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
