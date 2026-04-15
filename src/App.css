@@ -1,8 +1,8 @@
+/* ================= GLOBAL ================= */
 html {
   scroll-behavior: smooth;
 }
 
-/* BODY (UPGRADED BACKGROUND) */
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -10,27 +10,27 @@ body {
   color: #1e293b;
 }
 
-/* Background shape (premium feel) */
+/* Soft background design */
 body::before {
   content: "";
   position: fixed;
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   background: #4f46e5;
   border-radius: 50%;
-  top: -120px;
-  right: -120px;
+  top: -150px;
+  right: -150px;
   opacity: 0.08;
   z-index: -1;
 }
 
-/* NAVBAR */
+/* ================= NAVBAR ================= */
 .navbar-pro {
   display: flex;
   justify-content: flex-end;
   padding: 20px 10%;
   background: rgba(255,255,255,0.8);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -41,38 +41,41 @@ body::before {
   color: #475569;
   font-weight: 500;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .nav-links a:hover {
   color: #4f46e5;
 }
 
-/* SECTIONS */
+/* ================= SECTIONS ================= */
 section {
   padding: 100px 10%;
   max-width: 1200px;
   margin: auto;
 }
 
-/* HEADINGS */
+/* ================= HEADINGS ================= */
 h2 {
   font-size: 34px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  text-align: center;
   position: relative;
 }
 
 h2::after {
   content: "";
-  width: 60px;
+  width: 70px;
   height: 4px;
   background: #4f46e5;
   position: absolute;
-  left: 0;
-  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -12px;
   border-radius: 10px;
 }
 
-/* HERO */
+/* ================= HERO ================= */
 .hero-pro {
   display: flex;
   align-items: center;
@@ -86,7 +89,6 @@ h2::after {
 
 .hero-left h1 {
   font-size: 60px;
-  line-height: 1.2;
   font-weight: 700;
 }
 
@@ -106,7 +108,7 @@ h2::after {
   line-height: 1.6;
 }
 
-/* BUTTONS */
+/* ================= BUTTONS ================= */
 .hero-buttons {
   margin-top: 30px;
 }
@@ -140,7 +142,7 @@ h2::after {
   color: white;
 }
 
-/* PROFILE IMAGE */
+/* ================= PROFILE IMAGE ================= */
 .circle {
   width: 260px;
   height: 260px;
@@ -161,7 +163,7 @@ h2::after {
   filter: brightness(1.05) contrast(1.1);
 }
 
-/* FLOAT ANIMATION */
+/* Floating animation */
 @keyframes float {
   0% { transform: translateY(0); }
   50% { transform: translateY(-12px); }
@@ -172,9 +174,9 @@ h2::after {
   animation: float 4s ease-in-out infinite;
 }
 
-/* GLASS CARDS (UPGRADED) */
+/* ================= CARDS (GLASS STYLE) ================= */
 .card {
-  background: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.75);
   backdrop-filter: blur(10px);
   padding: 30px;
   border-radius: 18px;
@@ -186,7 +188,7 @@ h2::after {
   transform: translateY(-8px);
 }
 
-/* SKILLS */
+/* ================= SKILLS ================= */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -200,7 +202,7 @@ h2::after {
   border-radius: 20px;
 }
 
-/* PROJECTS */
+/* ================= PROJECTS ================= */
 .project-card {
   background: white;
   padding: 30px;
@@ -215,7 +217,10 @@ h2::after {
   box-shadow: 0 20px 40px rgba(0,0,0,0.12);
 }
 
-/* PROJECT BUTTONS */
+.project-links {
+  margin-top: 15px;
+}
+
 .project-links a {
   display: inline-block;
   margin-right: 10px;
@@ -230,12 +235,35 @@ h2::after {
   background: #3730a3;
 }
 
-/* CONTACT */
-.contact {
+/* ================= CONTACT ================= */
+.contact-card {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
   text-align: center;
 }
 
-/* MOBILE */
+.contact-card p {
+  margin: 15px 0;
+}
+
+.contact-card a {
+  color: #4f46e5;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
+/* ================= MOBILE ================= */
 @media (max-width: 768px) {
 
   .hero-pro {
