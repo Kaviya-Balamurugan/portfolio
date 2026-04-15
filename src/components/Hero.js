@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section className="hero-pro">
 
-      {/* LEFT CONTENT */}
+      {/* LEFT */}
       <motion.div
         className="hero-left"
         initial={{ opacity: 0, x: -80 }}
@@ -18,20 +18,19 @@ function Hero() {
         <h2>AI & ML Engineer</h2>
 
         <p>
-          I build intelligent applications using Machine Learning, Deep Learning,
-          and Generative AI to solve real-world problems.
+          I build intelligent applications using Machine Learning,
+          Deep Learning, and Generative AI.
         </p>
 
         <div className="hero-buttons">
           <a href="#projects" className="btn-primary">View Projects</a>
-
           <a href="/resume.pdf" className="btn-secondary" download>
             Download Resume
           </a>
         </div>
       </motion.div>
 
-      {/* RIGHT IMAGE */}
+      {/* RIGHT */}
       <motion.div
         className="hero-right"
         initial={{ opacity: 0, x: 80 }}

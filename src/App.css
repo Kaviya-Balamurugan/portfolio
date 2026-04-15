@@ -325,3 +325,102 @@ h2 {
     flex-direction: column;
   }
 }
+
+/* ================= REVEAL SMOOTH ================= */
+section {
+  transition: all 0.5s ease;
+}
+
+/* ================= GLASS EFFECT ================= */
+.card,
+.project-card,
+.skill-card,
+.edu-card {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(10px);
+  transition: all 0.4s ease;
+}
+
+.card:hover,
+.project-card:hover,
+.skill-card:hover,
+.edu-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.12);
+}
+
+/* ================= HERO ================= */
+.hero-pro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 10%;
+  gap: 60px;
+}
+
+.hero-left h1 {
+  font-size: 52px;
+}
+
+.hero-left h1 span {
+  background: linear-gradient(90deg, #4f46e5, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-left p {
+  margin-top: 15px;
+  color: #64748b;
+}
+
+/* IMAGE */
+.hero-image-large {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  padding: 6px;
+  background: linear-gradient(135deg, #4f46e5, #06b6d4);
+  animation: floatRotate 6s ease-in-out infinite;
+}
+
+.hero-image-large img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* FLOAT ANIMATION */
+@keyframes floatRotate {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(1deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+/* ================= BUTTON EFFECT ================= */
+.btn-primary {
+  transition: transform 0.2s ease, box-shadow 0.3s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 25px rgba(79,70,229,0.5);
+}
+
+/* ================= SKILLS ================= */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+  .hero-pro {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+}
