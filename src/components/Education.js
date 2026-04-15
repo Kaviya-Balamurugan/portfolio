@@ -3,31 +3,45 @@ function Education() {
     <section id="education">
       <h2>Education</h2>
 
-      <div className="card">
+      <div className="edu-container">
 
-        <h3>Bachelor of Engineering in Computer Science (AI & ML)</h3>
-        <p><b>KPR Institute of Engineering and Technology, Coimbatore</b></p>
+        {/* College */}
+        <div className="edu-card">
+          <div className="edu-left">
+            <span className="edu-year">2023 – 2027</span>
+          </div>
 
-        <p>2023 – 2027</p>
-        <p><b>CGPA:</b> 8.27</p>
+          <div className="edu-right">
+            <h3>B.E Computer Science (AI & ML)</h3>
+            <p className="edu-place">
+              KPR Institute of Engineering and Technology, Coimbatore
+            </p>
 
-        <p>
-          Relevant Coursework: Machine Learning, Deep Learning,
-          Data Structures, Database Management Systems
-        </p>
+            <p><b>CGPA:</b> 8.27</p>
+
+            <p className="edu-course">
+              Machine Learning • Deep Learning • Data Structures • DBMS
+            </p>
+          </div>
+        </div>
+
+        {/* School */}
+        <div className="edu-card">
+          <div className="edu-left">
+            <span className="edu-year">2023</span>
+          </div>
+
+          <div className="edu-right">
+            <h3>Higher Secondary Education (HSE)</h3>
+            <p className="edu-place">
+              Thaai Matric Higher Secondary School
+            </p>
+
+            <p><b>Score:</b> 93.5%</p>
+          </div>
+        </div>
 
       </div>
-
-      <div className="card">
-
-        <h3>Higher Secondary Education (HSE)</h3>
-        <p><b>Thaai Matric Higher Secondary School</b></p>
-
-        <p>Completed: 2023</p>
-        <p><b>Score:</b> 93.5%</p>
-
-      </div>
-
     </section>
   );
 }

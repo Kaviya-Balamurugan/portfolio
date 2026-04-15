@@ -119,8 +119,60 @@ h2 {
   margin-top: 25px;
 }
 
-#education .card {
-  margin-bottom: 25px;
+/* ================= EDUCATION PREMIUM ================= */
+
+.edu-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Card */
+.edu-card {
+  display: flex;
+  gap: 30px;
+  background: white;
+  padding: 25px 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  align-items: center;
+  transition: 0.3s;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Left (Year) */
+.edu-left {
+  min-width: 100px;
+}
+
+.edu-year {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4f46e5;
+  background: #eef2ff;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+/* Right content */
+.edu-right h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.edu-place {
+  color: #64748b;
+  margin: 5px 0;
+}
+
+.edu-course {
+  font-size: 14px;
+  color: #475569;
+  margin-top: 8px;
 }
 /* RIGHT IMAGE */
 .circle {
