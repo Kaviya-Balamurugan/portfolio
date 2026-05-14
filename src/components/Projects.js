@@ -30,6 +30,10 @@ function Projects() {
             className="project-img"
           />
 
+          <div className="featured-tag">
+  Featured Project
+</div>
+
           <h3>🧠 Brain Tumor Classification</h3>
 
           <p>
