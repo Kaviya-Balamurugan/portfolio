@@ -50,6 +50,8 @@ function Hero() {
           <p>
             Passionate about building scalable AI-powered applications using
             Machine Learning, Deep Learning, and Generative AI technologies.
+            Experienced in developing real-world AI systems including healthcare
+            AI, Retrieval-Augmented Generation (RAG), and predictive analytics.
           </p>
 
           {/* Buttons */}
@@ -77,13 +79,30 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
+
           <div className="image-wrapper">
+
             <img
               src={profile}
               alt="Kaviya"
               className="profile-img"
             />
+
+            {/* Floating Tech Cards */}
+            <div className="floating-card card1">
+              TensorFlow
+            </div>
+
+            <div className="floating-card card2">
+              Generative AI
+            </div>
+
+            <div className="floating-card card3">
+              Spring Boot
+            </div>
+
           </div>
+
         </motion.div>
 
       </section>
@@ -112,18 +131,6 @@ function Hero() {
         </div>
 
       </section>
-
-      <div className="floating-card card1">
-  TensorFlow
-</div>
-
-<div className="floating-card card2">
-  Generative AI
-</div>
-
-<div className="floating-card card3">
-  Spring Boot
-</div>
     </>
   );
 }

@@ -24,7 +24,6 @@ function Projects() {
         {/* ===== PROJECT 1 ===== */}
         <div className="project-card">
 
-          {/* Main Image */}
           <img
             src={brainDet}
             alt="Brain Tumor Classification"
@@ -34,10 +33,13 @@ function Projects() {
           <h3>🧠 Brain Tumor Classification</h3>
 
           <p>
-            CNN model achieving <b>92% accuracy</b> using MobileNetV2.
+            Developed a deep learning-based brain tumor classification system
+            using MobileNetV2 achieving <b>92% validation accuracy</b>.
+            Integrated Grad-CAM explainability and optimized deployment
+            using ONNX Runtime with FastAPI and Streamlit.
           </p>
 
-          {/* Mini Gallery */}
+          {/* Gallery */}
           <div className="project-gallery">
 
             <img
@@ -65,6 +67,8 @@ function Projects() {
             <span>TensorFlow</span>
             <span>CNN</span>
             <span>MobileNetV2</span>
+            <span>FastAPI</span>
+            <span>ONNX</span>
           </div>
 
           {/* Links */}
@@ -86,7 +90,6 @@ function Projects() {
         {/* ===== PROJECT 2 ===== */}
         <div className="project-card">
 
-          {/* Main Image */}
           <img
             src={genAiTut}
             alt="GenAI Tutor"
@@ -96,10 +99,12 @@ function Projects() {
           <h3>🤖 GenAI Tutor</h3>
 
           <p>
-            RAG-based assistant using embeddings and vector DB.
+            Built a Retrieval-Augmented Generation (RAG) educational assistant
+            integrating embeddings, semantic search, vector databases,
+            and Spring Boot backend with real-time contextual responses.
           </p>
 
-          {/* Mini Gallery */}
+          {/* Gallery */}
           <div className="project-gallery">
 
             <img
@@ -122,6 +127,7 @@ function Projects() {
             <span>Embeddings</span>
             <span>Spring Boot</span>
             <span>PostgreSQL</span>
+            <span>pgvector</span>
           </div>
 
           {/* Links */}
@@ -143,7 +149,6 @@ function Projects() {
         {/* ===== PROJECT 3 ===== */}
         <div className="project-card">
 
-          {/* Main Image */}
           <img
             src={tripCost}
             alt="Trip Cost Predictor"
@@ -153,10 +158,12 @@ function Projects() {
           <h3>✈️ Trip Cost Predictor</h3>
 
           <p>
-            Developed a machine learning regression system using Random Forest to predict travel expenses using real-world datasets and optimized feature engineering techniques.
+            Developed a machine learning regression system using Random Forest
+            to predict travel expenses using real-world datasets and optimized
+            feature engineering techniques with Flask API deployment.
           </p>
 
-          {/* Mini Gallery */}
+          {/* Gallery */}
           <div className="project-gallery">
 
             <img
