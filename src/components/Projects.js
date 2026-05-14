@@ -153,7 +153,7 @@ function Projects() {
           <h3>✈️ Trip Cost Predictor</h3>
 
           <p>
-            ML regression model for predicting travel cost.
+            Developed a machine learning regression system using Random Forest to predict travel expenses using real-world datasets and optimized feature engineering techniques.
           </p>
 
           {/* Mini Gallery */}

@@ -112,6 +112,18 @@ function Hero() {
         </div>
 
       </section>
+
+      <div className="floating-card card1">
+  TensorFlow
+</div>
+
+<div className="floating-card card2">
+  Generative AI
+</div>
+
+<div className="floating-card card3">
+  Spring Boot
+</div>
     </>
   );
 }
