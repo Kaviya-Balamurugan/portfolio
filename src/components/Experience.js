@@ -1,49 +1,60 @@
 function Experience() {
   return (
     <section id="experience">
+
       <h2>Experience</h2>
 
-      {/* Lennox Internship */}
-      <div className="card">
-        <h3>Machine Learning Intern</h3>
+      <div className="timeline">
 
-        <p>
-          <b>Lennox India Technology Centre, Chennai</b> | Jun 2025 – Jul 2025
-        </p>
+        {/* ITEM 1 */}
+        <div className="timeline-item">
 
-        <ul>
-          <li>✔ Processed and analyzed large-scale industrial datasets</li>
-          <li>✔ Performed data cleaning, feature engineering, and EDA</li>
-          <li>✔ Built predictive models using Random Forest and Gradient Boosting</li>
-          <li>✔ Improved model performance through optimization techniques</li>
-          <li>✔ Collaborated in a professional team environment on real-world problems</li>
-        </ul>
+          <div className="timeline-dot"></div>
 
-        <p>
-          Gained hands-on experience in applying machine learning solutions in
-          real-world industry scenarios and understanding end-to-end ML workflows.
-        </p>
-      </div>
+          <div className="timeline-content">
 
-      {/* CodSoft Internship */}
-      <div className="card">
-        <h3>Machine Learning Intern</h3>
+            <span className="timeline-date">
+              Jun 2025 – Jul 2025
+            </span>
 
-        <p>
-          <b>CodSoft (Virtual Internship)</b> | 2024
-        </p>
+            <h3>Machine Learning Intern</h3>
 
-        <ul>
-          <li>✔ Worked on multiple machine learning mini-projects</li>
-          <li>✔ Implemented regression and classification algorithms</li>
-          <li>✔ Performed data preprocessing and model evaluation</li>
-          <li>✔ Strengthened understanding of core ML concepts and workflows</li>
-        </ul>
+            <h4>Lennox India Technology Centre</h4>
 
-        <p>
-          Enhanced practical skills in machine learning by building and testing
-          models on real-world inspired datasets.
-        </p>
+            <p>
+              Worked on large-scale industrial datasets, feature engineering,
+              predictive modeling, and optimization techniques using machine
+              learning algorithms including Random Forest and Gradient Boosting.
+            </p>
+
+          </div>
+
+        </div>
+
+        {/* ITEM 2 */}
+        <div className="timeline-item">
+
+          <div className="timeline-dot"></div>
+
+          <div className="timeline-content">
+
+            <span className="timeline-date">
+              2024
+            </span>
+
+            <h3>Machine Learning Intern</h3>
+
+            <h4>CodSoft</h4>
+
+            <p>
+              Built multiple machine learning projects involving classification,
+              regression, preprocessing, and model evaluation workflows.
+            </p>
+
+          </div>
+
+        </div>
+
       </div>
 
     </section>
