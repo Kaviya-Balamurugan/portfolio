@@ -2,7 +2,10 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
-  background: linear-gradient(to bottom, #f7f8ff, #eef2ff);
+  background:
+  radial-gradient(circle at top left, rgba(108,99,255,0.08), transparent 25%),
+  radial-gradient(circle at bottom right, rgba(143,136,255,0.08), transparent 25%),
+  #f8f9fc;
   color: #222;
   scroll-behavior: smooth;
 }
@@ -12,7 +15,7 @@ body {
 }
 
 main {
-  max-width: 1250px;
+  max-width: 1400px;
   margin: auto;
   padding: 20px;
 }
@@ -24,10 +27,15 @@ section {
 /* ===== HEADINGS ===== */
 h2 {
   text-align: center;
-  font-size: 2.7rem;
-  margin-bottom: 60px;
-  font-weight: 700;
+
+  font-size: 3.5rem;
+  line-height: 1.1;
+
+  margin-bottom: 70px;
+
   color: #111;
+
+  font-weight: 700;
 }
 
 /* ===== NAVBAR ===== */
@@ -303,18 +311,34 @@ h2 {
 #education,
 #experience,
 #whatido {
-  background: rgba(255,255,255,0.75);
+  padding: 100px 70px;
 
-  backdrop-filter: blur(12px);
+  margin: 70px 0;
 
-  border-radius: 30px;
-
-  margin: 50px 0;
-  padding: 70px 50px;
+  border-radius: 35px;
 
   box-shadow:
-    0 15px 40px rgba(0,0,0,0.05),
-    0 0 0 1px rgba(255,255,255,0.35);
+    0 15px 40px rgba(0,0,0,0.05);
+}
+
+/* ===== ALTERNATING SECTION COLORS ===== */
+
+#about,
+#projects,
+#achievements,
+#contact {
+  background: rgba(255,255,255,0.95);
+}
+
+#education,
+#experience,
+#skills,
+#whatido {
+  background: linear-gradient(
+    135deg,
+    #f8f9ff,
+    #eef2ff
+  );
 }
 
 /* ===== GENERAL CARD ===== */
