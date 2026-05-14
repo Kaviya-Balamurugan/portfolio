@@ -9,7 +9,8 @@ import Experience from "./components/Experience";
 import Achievements from "./components/Achievements";
 import WhatIDo from "./components/WhatIDo";
 import Reveal from "./components/Reveal";
-import Footer from "./components/Footer"; // ✅ use this
+import Footer from "./components/Footer"; 
+import FeaturedProject from "./components/FeaturedProject";
 import "./App.css";
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
       <main>
 
         <Hero />
+        <Reveal>
+          <FeaturedProject />
+        </Reveal>
 
         <Reveal>
           <About />

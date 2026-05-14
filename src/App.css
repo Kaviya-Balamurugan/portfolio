@@ -1150,3 +1150,166 @@ body::after {
     transform: translate(0, 0);
   }
 }
+
+/* ===== FEATURED PROJECT ===== */
+
+.featured-project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 70px;
+
+  padding: 100px 70px;
+
+  margin: 80px 0;
+
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.95),
+    rgba(238,242,255,0.9)
+  );
+
+  border-radius: 35px;
+
+  position: relative;
+  overflow: hidden;
+
+  box-shadow:
+    0 20px 60px rgba(0,0,0,0.06);
+}
+
+/* Glow Effect */
+.featured-project::before {
+  content: "";
+
+  position: absolute;
+
+  width: 400px;
+  height: 400px;
+
+  background: rgba(108,99,255,0.08);
+
+  border-radius: 50%;
+
+  top: -150px;
+  right: -100px;
+
+  filter: blur(40px);
+}
+
+/* LEFT */
+.featured-left {
+  flex: 1;
+  z-index: 2;
+}
+
+/* LABEL */
+.featured-label {
+  display: inline-block;
+
+  background: rgba(108,99,255,0.12);
+  color: #6c63ff;
+
+  padding: 8px 16px;
+
+  border-radius: 999px;
+
+  font-size: 0.85rem;
+  font-weight: 600;
+
+  margin-bottom: 24px;
+}
+
+/* TITLE */
+.featured-project h2 {
+  text-align: left;
+
+  font-size: 3.5rem;
+  line-height: 1.1;
+
+  margin-bottom: 24px;
+
+  color: #111;
+}
+
+/* DESCRIPTION */
+.featured-project p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+
+  color: #555;
+
+  margin-bottom: 35px;
+
+  max-width: 600px;
+}
+
+/* METRICS */
+.featured-metrics {
+  display: flex;
+  gap: 40px;
+
+  margin-bottom: 40px;
+
+  flex-wrap: wrap;
+}
+
+.featured-metrics h3 {
+  font-size: 2rem;
+  color: #6c63ff;
+
+  margin-bottom: 6px;
+}
+
+.featured-metrics span {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* RIGHT */
+.featured-right {
+  flex: 1;
+  z-index: 2;
+}
+
+.featured-right img {
+  width: 100%;
+
+  border-radius: 28px;
+
+  box-shadow:
+    0 25px 60px rgba(0,0,0,0.15);
+
+  transition: 0.4s;
+}
+
+.featured-right img:hover {
+  transform: scale(1.02);
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 950px) {
+
+  .featured-project {
+    flex-direction: column;
+
+    padding: 70px 30px;
+
+    text-align: center;
+  }
+
+  .featured-project h2 {
+    text-align: center;
+    font-size: 2.6rem;
+  }
+
+  .featured-left {
+    text-align: center;
+  }
+
+  .featured-metrics {
+    justify-content: center;
+  }
+}
