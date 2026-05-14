@@ -5,7 +5,7 @@ import genAiTut from "../assets/genai-tut.png";
 import genImg from "../assets/gen.png";
 import tripCost from "../assets/trip_cost.png";
 import tripImg from "../assets/trip.png";
-import tumAnly from "../assets/tum_anly.png";
+import tumAnly from "../assets/tum_analy.png";
 import tumDet from "../assets/Tum_det.png";
 function Projects() {
   return (
